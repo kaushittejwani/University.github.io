@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+</head>
+<body>
+   <section class="subheader">
+       <nav>
+          
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"  onclick="hideMenu()"></i>
+           
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="course.html">Course</a></li>
+                   <li><a href="blog.html">Blog</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <section>
+           <h1> about us</h1>
+       </section>
+       <section class="about-us">
+           <div class="row">
+               <div class="col">
+                   <h1>These are world largestest university</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat hic itaque animi, illo odit perspiciatis distinctio <br>ducimus cum voluptas deleniti earum eius sint doloremque nisi<br> eos atque, aut non voluptatem accusamus, facere similique. Perferendis aliquid labore perspiciatis <br>unde aliquam exercitationem, nihil consequuntur quasi<br> quaerat, blanditiis odit illum, incidunt architecto. Ullam.<br>
+                    <a href=""class="hero-btn red-btn">Expolre now</a>
+                  </p>
+               </div>
+               <div class="col">
+                   <img src="18.jpg">
+            </div>
+           </div>
+       </section>
+       <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Consequatur eos, facilis delectus
+            ad est <br>ipsa quam autem dignissimos id reiciendis.<br>Explicabo incidunt voluptas doloribus itaque facilis laudantium expedita, non
+            <br>nemo quas dolores corrupti iste ipsum, fuga unde.</p></p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p>made with <i class="far fa-heart"></i> by kaushit tejwani</p>
+
+    </section>
+
+      
+       
+       
+   
+   <script>
+       var links= document.getElementById("navLinks");
+       function showMenu(){
+           links.style.right = "0";
+       }
+       function hideMenu(){
+        links.style.right = "-200px";
+
+       }
+   </script>
+   
+   
+</body>
+</html>
