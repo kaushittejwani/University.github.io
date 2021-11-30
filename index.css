@@ -300,6 +300,7 @@ h3{
 .col{
     flex-basis: 48%;
     padding:0 0;
+    margin-top:262px;
   
 
 }
@@ -334,6 +335,7 @@ h3{
     width:100%;
     height:400px;
     padding:61px 0;
+    margin-top:243px;
 }
 
 .blog-left h2{
@@ -393,6 +395,7 @@ h3{
     width:80%;
     margin:auto;
     padding:80px 0;
+    margin-top:201px;
 }
 .location iframe{
     width:100%;
