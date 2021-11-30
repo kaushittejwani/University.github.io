@@ -333,7 +333,7 @@ h3{
 .blog-left img{
     width:100%;
     height:400px;
-    padding:5px 0;
+    padding:53px 0;
 }
 
 .blog-left h2{
@@ -396,6 +396,7 @@ h3{
 }
 .location iframe{
     width:100%;
+    padding:100px 0;
 }
 .contact-col h5{
     color:black;
