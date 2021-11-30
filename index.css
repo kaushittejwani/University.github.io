@@ -195,7 +195,7 @@ h3{
     margin-bottom:30px;
     position:relative;
     overflow: hidden;
-    margin-left:30px;
+    margin-left:30px auto;
 
 }
 .campus-col img{
