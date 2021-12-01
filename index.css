@@ -39,7 +39,6 @@ nav{
     color:whitesmoke;
     text-decoration:none;
     font-size:15px;
-
 }
 .nav-links ul li a::after{
     content:"";
@@ -172,7 +171,7 @@ p{
 h3{
     text-align: center;
     font-weight: 600;
-    margin:305px 0;
+    margin:306px 0;
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px black;
@@ -356,7 +355,7 @@ h3{
     color:#fff;
     padding:7px 0;
     font-size:16px;
-    margin-bottom:29px;
+    margin-bottom:7px;
 }
 .blog-right  div{
     display: flex;
